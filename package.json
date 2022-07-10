@@ -18,7 +18,7 @@
         "wdio-wait-for": "^2.2.6"
     },
     "scripts": {
-        "wdio": "wdio ./test/wdio.conf.ts",
+        "wdio": "wdio ./src/wdio.conf.ts",
         "eslint": "--ext .js,.jsx,.ts,.tsx ./"
     }
 }
