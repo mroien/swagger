@@ -1,7 +1,7 @@
 import LoginPage from '../../pageobjects/Login/login.page';
 import ProductPage from '../../pageobjects/Products/products.page';
 
-import * as siteData from '../../data/site.data';
+import * as siteData from '../../../data/site.data';
 
 describe('Products Page Menu Test.', () => {
   describe('Log into Swag Labs.', () => {

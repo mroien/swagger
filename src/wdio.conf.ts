@@ -28,7 +28,7 @@ export const config: Options.Testrunner = {
         // for all available options
         tsNodeOpts: {
             transpileOnly: true,
-            project: 'test/tsconfig.json'
+            project: 'src/tsconfig.json'
         }
         // tsconfig-paths is only used if "tsConfigPathsOpts" are provided, if you
         // do please make sure "tsconfig-paths" is installed as dependency
@@ -53,7 +53,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        `./test/specs/${component}/${testcase}.spec.ts`
+        `./src/**/specs/${component}/${testcase}.spec.ts`
     ],
     // Patterns to exclude.
     exclude: [
