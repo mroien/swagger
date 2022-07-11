@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import petsRoutes from './src/API/routes/pets.js';
+import petsRoutes from './src/API/routes/pets.mjs';
 
 const app = express();
 const PORT = 5555;
