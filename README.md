@@ -1,4 +1,4 @@
-# swagger
+# Swagger
 Swagger UI / API
 
 ## Run Commands
@@ -10,8 +10,8 @@ the tests in a component you can leave the _TESTCASE_ field empty or to run ever
 leave both the _COMPONENT_ and _TESTCASE_ fields empty.
 
 To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
-
-## CLI commands
+## UI - [Swag Labs](https://www.saucedemo.com)
+### CLI commands
 ### Login
 - Appearance: COMPONENT=login TESTCASE=appearance npm run wdio
 - Invalid: COMPONENT=login TESTCASE=invalid npm run wdio
@@ -25,3 +25,5 @@ To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
 - All Products Tests: COMPONENT=products TESTCASE= npm run wdio
 ### e2e
 - e2e: COMPONENT=e2e TESTCASE=e2e npm run wdio
+
+## API - [Swagger Pet Store](https://petstore.swagger.io/)

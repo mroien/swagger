@@ -1,6 +1,6 @@
 import Base from '../base';
 
-import * as siteData from '../../data/site.data';
+import * as siteData from '../../../data/site.data';
 
 class CheckoutPage extends Base {
   get continue() {

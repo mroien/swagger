@@ -12,13 +12,14 @@
         "chromedriver": "^103.0.0",
         "eslint": "^8.19.0",
         "eslint-plugin-react": "^7.30.1",
+        "express": "^4.18.1",
         "ts-node": "^10.8.2",
         "typescript": "^4.7.4",
         "wdio-chromedriver-service": "^7.3.2",
         "wdio-wait-for": "^2.2.6"
     },
     "scripts": {
-        "wdio": "wdio ./test/wdio.conf.ts",
+        "wdio": "wdio ./src/wdio.conf.ts",
         "eslint": "--ext .js,.jsx,.ts,.tsx ./"
     }
 }
