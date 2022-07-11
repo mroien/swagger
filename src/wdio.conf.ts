@@ -53,7 +53,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        `./src/specs/${component}/${testcase}.spec.ts`
+        `./src/**/specs/${component}/${testcase}.spec.ts`
     ],
     // Patterns to exclude.
     exclude: [

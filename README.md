@@ -1,6 +1,7 @@
-# swagger
+# Swagger
 Swagger UI / API
 
+# UI Section
 ## Run Commands
 - _component_ is the parent directory where the test specs live.
 - _testcase_ is the individual test case you want to run.
@@ -25,3 +26,7 @@ To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
 - All Products Tests: COMPONENT=products TESTCASE= npm run wdio
 ### e2e
 - e2e: COMPONENT=e2e TESTCASE=e2e npm run wdio
+
+# API Section
+- Start nodemon server with `npm start`
+- Navigate to `http://localhost:5555/pets`
