@@ -47,6 +47,7 @@ export const FELINE: string = 'Feline';
 export const FIVE: string = '5';
 export const ONE: string = '1';
 export const TAG_NAME: string = 'Tag Name';
+export const THREE: string = '3';
 export const TWO:string = '2';
 export const UNAVAILABLE: string = 'unavailable';
 export const UNKNOWN: string = 'unknown';

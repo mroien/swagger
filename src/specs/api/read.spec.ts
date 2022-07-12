@@ -11,9 +11,9 @@ postBody.tags[0].name = siteData.TAG_NAME;
 postBody.status = siteData.UNAVAILABLE;
 
 describe('Swagger API READ Test.', () => {
-  it(`POST, create a Pet with the name: ${siteData.CAT} and ID: ${siteData.TWO}`, async () => {
+  it(`PUT, create a Pet with the name: ${siteData.CAT} and ID: ${siteData.TWO}`, async () => {
     const response = await fetch(siteData.BASE_URL, {
-      method: 'POST',
+      method: 'PUT',
       body: JSON.stringify(postBody),
       headers: {'Content-Type': 'application/json'}
     })
