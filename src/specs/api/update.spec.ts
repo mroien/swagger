@@ -8,10 +8,11 @@ import { postBody } from '../../pageobjects/Api/api.lib';
 
 postBody.id = siteData.FIVE;
 postBody.name = siteData.CAT;
-postBody.status = siteData.UNAVAILABLE;
 postBody.category.name = siteData.FELINE;
 postBody.photoUrls[0] = siteData.CAT_LINK;
 postBody.tags[0].name = siteData.TAG_NAME;
+postBody.status = siteData.UNAVAILABLE;
+
 
 describe('Swagger API Update Test.', () => {
   it(`POST, create a Pet with the name: ${siteData.CAT} and ID: ${siteData.FIVE}`, async () => {
