@@ -16,13 +16,11 @@ To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
 - Appearance: COMPONENT=login TESTCASE=appearance npm run wdio
 - Invalid: COMPONENT=login TESTCASE=invalid npm run wdio
 - Login: COMPONENT=login TESTCASE=login npm run wdio
-- All Login Tests: COMPONENT=login TESTCASE= npm run wdio
 ### Products
 - addRemoveCart: COMPONENT=products TESTCASE=addRemoveCart npm run wdio
 - Appearance: COMPONENT=products TESTCASE=appearance npm run wdio
 - Menu: COMPONENT=products TESTCASE=menu npm run wdio
 - Sort: COMPONENT=products TESTCASE=sort npm run wdio
-- All Products Tests: COMPONENT=products TESTCASE= npm run wdio
 ### e2e
 - e2e: COMPONENT=e2e TESTCASE=e2e npm run wdio
 
