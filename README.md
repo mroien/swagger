@@ -27,3 +27,7 @@ To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
 - e2e: COMPONENT=e2e TESTCASE=e2e npm run wdio
 
 ## API - [Swagger Pet Store](https://petstore.swagger.io/)
+- Create: COMPONENT=api TESTCASE=create npm run wdio
+- Delete: COMPONENT=api TESTCASE=create npm run wdio
+- Read: COMPONENT=api TESTCASE=create npm run wdio
+- Update: COMPONENT=api TESTCASE=create npm run wdio
