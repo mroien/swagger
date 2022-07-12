@@ -5,7 +5,7 @@ import LoginPage from '../../pageobjects/Login/login.page';
 import ProductPage from '../../pageobjects/Products/products.page';
 import OverviewPage from '../../pageobjects/Overview/overview.spec';
 
-import * as siteData from '../../../data/site.data';
+import * as siteData from '../../data/site.data';
 
 describe('Full e2e happy path test.', () => {
   describe('Log into Swag Labs.', () => {

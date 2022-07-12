@@ -31,3 +31,23 @@ export const TOTAL: string = '$8.63';
 export const USERNAME_ARRAY: string[] = ['standard_user', 'locked_out_user', 'problem_user', 'performance_glitch_user'];
 export const USERNAME_REQUIRED: string = 'Epic sadface: Username is required';
 export const ZIP_CODE: string = '12345-6789';
+
+//////////////////////////////////////
+//                                  //
+//            API                   // 
+//                                  //
+//////////////////////////////////////
+export const AVAILABLE: string = 'available';
+export const BASE_URL: string = 'https://petstore.swagger.io/v2/pet';
+export const BOB: string = 'Bob';
+export const CAT: string = 'Cat';
+export const CAT_LINK: string = 'https://www.rd.com/list/cat-pictures/';
+export const DOG: string = 'Dog';
+export const FELINE: string = 'Feline';
+export const FIVE: string = '5';
+export const ONE: string = '1';
+export const TAG_NAME: string = 'Tag Name';
+export const TWO:string = '2';
+export const UNAVAILABLE: string = 'unavailable';
+export const UNKNOWN: string = 'unknown';
+
