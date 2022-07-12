@@ -53,7 +53,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        `./src/**/specs/${component}/${testcase}.spec.ts`
+        `./src/specs/${component}/${testcase}.spec.ts`
     ],
     // Patterns to exclude.
     exclude: [
@@ -94,7 +94,8 @@ export const config: Options.Testrunner = {
               '--disable-infobars',
               '--window-size=1920,1080',
               '--incognito',
-],
+              '--headless'
+            ],
           },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs

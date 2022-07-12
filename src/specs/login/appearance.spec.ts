@@ -1,6 +1,6 @@
 import LoginPage from '../../pageobjects/Login/login.page';
 
-import * as siteData from '../../../data/site.data';
+import * as siteData from '../../data/site.data';
 
 describe('Login Page Appearance.', () => {
   describe('Validate Login Page elements.', () => {
