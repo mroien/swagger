@@ -15,11 +15,11 @@ postBody.status = siteData.UNAVAILABLE;
 
 
 describe('Swagger API Update Test.', () => {
-  it(`POST, create a Pet with the name: ${siteData.CAT} and ID: ${siteData.FIVE}`, async () => {
+  it(`PUT, create a Pet with the name: ${siteData.CAT} and ID: ${siteData.FIVE}`, async () => {
     const response = await fetch(siteData.BASE_URL, {
-      method: 'POST',
+      method: 'PUT',
       body: JSON.stringify(postBody),
-      headers: {'Content-Type': 'application/json'}
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
     });
     expect(response.ok);
   });

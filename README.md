@@ -10,17 +10,22 @@ the tests in a component you can leave the _TESTCASE_ field empty or to run ever
 leave both the _COMPONENT_ and _TESTCASE_ fields empty.
 
 To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
+
+## Run all tests at once
+- All Tests: COMPONENT= TESTCASE= npm run wdio
 ## UI - [Swag Labs](https://www.saucedemo.com)
 ### CLI commands
 ### Login
 - Appearance: COMPONENT=login TESTCASE=appearance npm run wdio
 - Invalid: COMPONENT=login TESTCASE=invalid npm run wdio
 - Login: COMPONENT=login TESTCASE=login npm run wdio
+- All Login Tests: COMPONENT=login TESTCASE= npm run wdio
 ### Products
 - addRemoveCart: COMPONENT=products TESTCASE=addRemoveCart npm run wdio
 - Appearance: COMPONENT=products TESTCASE=appearance npm run wdio
 - Menu: COMPONENT=products TESTCASE=menu npm run wdio
 - Sort: COMPONENT=products TESTCASE=sort npm run wdio
+- All Products Tests: COMPONENT=products TESTCASE= npm run wdio
 ### e2e
 - e2e: COMPONENT=e2e TESTCASE=e2e npm run wdio
 
@@ -29,3 +34,4 @@ To run tests enter _COMPONENT_ and _TESTCASE_ in terminal where the repo lives.
 - Delete: COMPONENT=api TESTCASE=create npm run wdio
 - Read: COMPONENT=api TESTCASE=create npm run wdio
 - Update: COMPONENT=api TESTCASE=create npm run wdio
+- All API Tests: COMPONENT=api TESTCASE= npm run wdio
