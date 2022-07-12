@@ -18,7 +18,3 @@ export const postBody = {
   ],
   "status": "string"
 }
-
-export const updateName = {
-    "name": "Bob"
-}

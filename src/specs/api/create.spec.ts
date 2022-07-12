@@ -14,6 +14,8 @@ describe('Swagger API Create Test.', () => {
       body: JSON.stringify(postBody),
       headers: {'Content-Type': 'application/json'}
     });
+    const res = await response.json();
+    console.log(res);
     expect(response.ok)
   });
 
